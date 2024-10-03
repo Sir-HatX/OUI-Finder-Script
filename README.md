@@ -16,18 +16,18 @@ This Bash script allows users to fetch the **Organizationally Unique Identifier 
    cd YOUR_REPOSITORY_NAME
 
 3. Add a list of MAC addresses to a text file (one per line):
-```txt
-00:1A:2B:3C:4D:5E
-00:1B:44:11:3A:B7
-```
+   ```txt
+   00:1A:2B:3C:4D:5E
+   00:1B:44:11:3A:B7
+   ```
 4. Run the script:
-```bash
-./get_oui.sh YOUR_API_KEY mac_addresses.txt
-```
+   ```bash
+   ./get_oui.sh YOUR_API_KEY mac_addresses.txt
+   ```
 5. Output format:
-```
-MAC_ADDRESS:Company_Name
-```
+   ```
+   MAC_ADDRESS:Company_Name
+   ```
 6. Requirements
-- curl for making API requests.
-- jq for parsing JSON output.
+   - curl for making API requests.
+   - jq for parsing JSON output.
