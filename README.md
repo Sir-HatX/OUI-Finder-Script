@@ -13,8 +13,8 @@ This Bash script allows users to fetch the **Organizationally Unique Identifier 
 2. Clone the repository and navigate to the directory:
    ```bash
    git clone https://github.com/Sir-HatX/OUI-Finder-Script.git
-
-   ```bash
+   ```
+   ```bash 
    cd OUI-Finder-Script
    ```
 4. Add a list of MAC addresses to a text file (one per line):
